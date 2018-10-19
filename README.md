@@ -3,6 +3,12 @@
 The Vimeo Player API allows you to interact with and control an embedded Vimeo
 Player.
 
+## Compile
+```bash
+yarn install
+yarn build
+```
+
 ## Installation
 
 You can install the Vimeo Player API through either npm:
