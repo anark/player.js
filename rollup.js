@@ -51,7 +51,7 @@ async function generateBundle() {
         cache = bundle;
 
         const { code, map } = await bundle.generate({
-            format: 'umd',
+            format: 'iife',
             name: 'Vimeo.Player',
             sourcemap: true,
             sourcemapFile: 'dist/player.js.map',
